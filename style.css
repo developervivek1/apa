@@ -1,0 +1,89 @@
+body h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+.uk-navbar-nav li:hover{
+
+    background-color: #f0506e;
+    color: white !important;
+}
+
+
+li a{
+    
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: #494848 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+ li:hover a{
+
+   
+    color: white !important;
+}
+
+
+
+ .uk-navbar-dropdown{
+    color: white;
+    background-color: #f0506e;
+}
+
+
+.uk-navbar-dropdown{
+    width: 220px;
+    padding: 25px 10px;
+}
+
+.uk-offcanvas-bar li{ 
+   padding: 5px;
+}
+/* ######  who we are   ###### */
+
+.title center{
+    font-family: 'Open Sans', sans-serif;
+    color: #252525;
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 300;
+}
+
+.container p{
+    font-size: 19px;
+    font-weight: 200;
+    line-height: 32px;
+    color: #252525;
+}
+
+.title2{
+    font-size: 42px;
+}
+
+.shadow h3{
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    font-family: inherit;
+    
+}
+
+.shadow1 h3{
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    font-family: inherit;
+    
+}
+
+ @media only screen and (min-width:801px){
+    .container-fluid .toggle-hide{
+        display: none;
+    }
+} 
